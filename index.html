@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset some default styles for the body and links */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply the background image */
+        body {
+            background-image: url('MyDoc_JKE.png'); /* Replace with your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Set the body to full viewport height */
+        }
+
+        /* Style the container */
+        .container {
+            position: relative;
+            text-align: center;
+            padding: 100px 0; /* Adjust top and bottom padding as needed */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Style the heading */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the button container */
+        .button-container {
+            position: absolute;
+            top: 250%; /* Set the buttons 50% down from the top */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the buttons both horizontally and vertically */
+            text-align: center; /* Center button text */
+        }
+
+        /* Style the rounded buttons */
+        .rounded-button {
+            display: block;
+            padding: 32px 64px; /* Smaller padding for smaller buttons */
+            background-color: #0074d9; /* Blue color */
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 50px auto; /* Center the buttons horizontally */
+            font-size: 16px; /* Smaller font size */
+            transition: background-color 0.3s;
+        }
+
+        /* Hover effect for buttons */
+        .rounded-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+    <title>Background Image with Buttons</title>
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <a href="https://web.whatsapp.com/" class="rounded-button">WhatsApp Web</a>
+            <a href="page2.html" class="rounded-button">Button 2</a>
+            <a href="page3.html" class="rounded-button">Button 3</a>
+        </div>
+    </div>
+</body>
+</html>
